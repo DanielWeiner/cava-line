@@ -3,6 +3,7 @@
 A real-time audio spectrum visualizer for [Waybar](https://github.com/Alexays/Waybar), rendered as a smooth line graph using a custom variable font.
 
 Example:
+
 ![example](example.png)
 
 ## How it works
