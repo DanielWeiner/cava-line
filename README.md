@@ -22,7 +22,7 @@ Example:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/DanielWeiner/cava-line.git ~/cava-line
+git clone https://github.com/DanielWeiner/cava-line.git
 ```
 
 ### 2. Install the font
