@@ -1,0 +1,17 @@
+[general]
+live-config = 1
+framerate = 60
+bars = 40
+sleep_timer = 1
+
+[output]
+method = raw
+channels = mono
+mono_option = average
+data_format = ascii
+ascii_max_range = 100
+# comma
+bar_delimiter = 44
+
+[smoothing]
+noise_reduction = 30
