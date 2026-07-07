@@ -84,7 +84,7 @@ def widget_tooltip_thread():
             tooltip = "\r".join([
                 f'{playerctl_data["title"]}',
                 f'<span size="small">{playerctl_data["artist"]}</span>',
-                f'{playerctl_data["position"]} / {playerctl_data["length"]}'
+                f'{playerctl_data["position"]} / {playerctl_data["length"]}' if playerctl_data["length"] else playerctl_data["position"]
             ]) if playerctl_data["status"] == "Playing" else None
 
             dirty_condition.notify()
